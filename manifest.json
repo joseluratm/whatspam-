@@ -1,0 +1,16 @@
+{
+  "name": "Whatspam",
+  "author": "Jose Luis Llinares",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Extension de chrome para spamear a mensajes a tus amigos",
+  "browser_action": {
+    "default_title": "Whatspam",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "<all_urls>",
+    "storage"
+  ]
+}
